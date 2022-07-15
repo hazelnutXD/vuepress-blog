@@ -13,7 +13,7 @@
             <ul>
                 <li v-for="(item, index) in menuList" :key="index">
                     <a :href="item.path">{{ item.title }}</a>
-                    <div class="underline"></div>
+                    <div :class="item.path === path ? 'underline' : 'underline hidden'"></div>
                 </li>
             </ul>
         </div>
@@ -30,7 +30,16 @@ export default {
                 { title: "Links", path: "/links" },
                 { title: "Project", path: "/project" },
                 { title: "About", path: "/about" }
-            ]
+            ],
+            path: ""
+        }
+    },
+    created() {
+        this.getRoute();
+    },
+    methods: {
+        getRoute() {
+            this.path = this.$route.path.split(".")[0];
         }
     }
 };
@@ -108,5 +117,9 @@ export default {
     margin-top: -1.6rem;
     background-color: skyblue;
     z-index: -1;
+}
+
+.hidden {
+    display: none;
 }
 </style>
