@@ -1,0 +1,88 @@
+{
+  "data": [
+    {
+      "type": "文档",
+      "list": [
+        {
+          "title": "Node.js",
+          "path": "https://nodejs.org/zh-cn/"
+        },
+        {
+          "title": "Vue.js",
+          "path": "https://staging-cn.vuejs.org/"
+        },
+        {
+          "title": "Sequelize",
+          "path": "https://www.sequelize.com.cn/"
+        },
+        {
+          "title": "Axios",
+          "path": "https://axios-http.com/"
+        },
+        {
+          "title": "ECharts",
+          "path": "https://echarts.apache.org/zh/index.html"
+        }
+      ]
+    },
+    {
+      "type": "数据库",
+      "list": [
+        {
+          "title": "MySQL",
+          "path": "https://dev.mysql.com/downloads/installer/"
+        },
+        {
+          "title": "MongoDB",
+          "path": "https://www.mongodb.com/try/download/community"
+        },
+        {
+          "title": "SQLite",
+          "path": "https://www.sqlite.org/download.html"
+        },
+        {
+          "title": "Redis",
+          "path": "https://redis.io/"
+        }
+      ]
+    },
+    {
+      "type": "工具",
+      "list": [
+        {
+          "title": "Docker",
+          "path": "https://www.docker.com/"
+        },
+        {
+          "title": "Postman",
+          "path": "https://www.postman.com/"
+        },
+        {
+          "title": "Everything",
+          "path": "https://www.voidtools.com/zh-cn/"
+        }
+      ]
+    },
+    {
+      "type": "设计",
+      "list": [
+        {
+          "title": "中国色",
+          "path": "http://zhongguose.com/"
+        },
+        {
+          "title": "免费素材图片Pexels",
+          "path": "https://www.pexels.com/zh-cn/"
+        },
+        {
+          "title": "字节图标库",
+          "path": "https://iconpark.oceanengine.com/home"
+        },
+        {
+          "title": "插图",
+          "path": "https://undraw.co/illustrations"
+        }
+      ]
+    }
+  ]
+}
